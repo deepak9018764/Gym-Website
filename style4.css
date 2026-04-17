@@ -1,0 +1,64 @@
+html, body{
+    height:100%;
+    background-color:#ddd;
+}
+
+
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    background-color: white;
+    display:flex;
+    padding:8px;
+    align-items: flex-start;
+    gap:10px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.3);
+
+}
+.icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:blue;
+    background-color: lavender;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    font-weight: 700;
+
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    font-weight: 700;
+    margin-bottom:5px;
+}
+.close-button{
+    border-radius: 50%;
+    border:none;
+}
+button{
+    border:0.5px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.confirm{
+    color:white;
+    background-color:royalblue;
+     cursor: pointer;
+}
+.cancel{
+       background-color:white;
+       color:royalblue;
+        cursor: pointer;
+
+}
+.text{
+    margin-bottom:5px;
+}
