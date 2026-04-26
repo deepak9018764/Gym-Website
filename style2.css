@@ -33,11 +33,11 @@ body{
     justify-content: space-between;
 }
 .start{
-    background-color:rebeccapurple;
     font-weight: 700;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border:3px solid black;
-    color:white;
+    border:1px solid rebeccapurple;
+    color:#111111;
+    background-color: white;
 }
 .left,.right{
     display:flex;
@@ -70,6 +70,9 @@ a{
     text-decoration:none;
     color: rebeccapurple;
 }
+.info a{
+    color:white;
+}
 .profile-image{
     background-color:rebeccapurple;
     width:50px;
@@ -99,7 +102,9 @@ button{
     height:400px;
     width:400px;
     border-radius: 50%;
-    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     margin:25px;
     background-size: auto;
     object-fit: cover;
@@ -113,13 +118,23 @@ button{
 .info3{
     margin-left: 50px;
 }
+.info7{
+    margin-left:10px;
+    align-items: center;
+
+}
+.benefits{
+    color:white;
+    font-size:42px;
+    gap:40px;
+}
 .poster2{
     height:550px;
     width:550px;
-    border-radius: 40px;
+    border-radius: 50px;
     margin-left: 60px;
-    height:auto;
-    margin-top:30px;
+    margin-top:40px;
+
 }
 .big-image{
     height:450px;
@@ -132,11 +147,14 @@ button{
     font-weight: 600;
     color:#FFD700;
     margin-bottom: 10px;
+    width:100%;
 
 }
 .text2{
     text-align:left;
     font-size:32px;
+    width:100%;
+   
 
 }
 .text3{
@@ -171,23 +189,59 @@ button{
     color:white;
     font-weight:700;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+   
+
+}
+.text7{
+    font-size:62px;
+    display:flex;
+    text-align:center;
+   
+}
+.text8{
+    font-size: 63px;
+    color:#FFD700;
+     
+
 
 }
 .container{
+
+  
     display:flex;
     gap:70px;
     width:100%;
     justify-content: space-between;
     margin-top:25px;
+    width:100%
+    
+
+  
 }
 .container2{
     margin-top: 20px;;
     display:flex;
     gap:70px;
-    width:100%;
     justify-content: space-between;
+}
+.container3{
+    display:flex;
+   text-align: center;
+   align-items: center;
+   justify-content:center;
+   margin-bottom:40px;
+   gap:100px;
+
+   
+    
+
+}
+.conatainer4{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .info2{
@@ -197,8 +251,15 @@ button{
     margin-left:200px;
     
 }
-.title1{
+.info8{
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    gap:90px;
+}
+.title1{
+    align-items: center;
     font-size: 42px;
     font-weight: 700;
     color:#FFD700;
@@ -210,6 +271,19 @@ button{
     font-weight: 700;
     color:#FFD700
 
+}
+.title3{
+    text-align: center;
+    font-size: 70px;
+    color:#FFD700;
+    margin-bottom:20px;
+}
+.title4{
+    text-align: center;
+    font-size: 70px;
+    color:#FFD700;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 .join{
     border:1px solid white;
