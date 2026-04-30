@@ -1,0 +1,73 @@
+html,body{
+    height:100%;
+}
+
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(gym5.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow:4px 8px 16px rgba(0, 0, 0, 2.2);
+
+
+}
+.modal{
+    display:flex;
+    background-color: white;
+    width:500px;
+    gap:20px;
+    padding:15px;
+    border-radius: 15px;
+    
+    
+}
+.icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width:48px;
+    height:48px;
+    background-color: lavender;
+    border-radius:50%;
+    color:royalblue;
+    font-size:32px;
+    font-weight:800;
+    
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size:18px;
+}
+.close-button{
+    border-radius: 50%;
+    border:1px solid #eee;
+    font-size:22px;
+    background-color:#ddd;
+    color:#eee=;
+
+
+}
+button{
+    border-radius: 8px;
+    border:0.5px solid #ddd;
+    font-size:12px; 
+    padding:4px 16px;
+    background-color:#ddd;
+    cursor: pointer;
+    
+}
+.confirm{
+    background-color:royalblue;
+    color:white;
+
+}
+.text{
+    margin-bottom:10px;
+}
