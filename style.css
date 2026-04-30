@@ -1,3 +1,30 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+
+/* Tablet */
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 html{
     height:200%;
 }
@@ -24,7 +51,9 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color:#FFD700;
+    flex-wrap:wrap;
     box-shadow:2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: clamp(28px, 5vw, 60px);
 }
 .start{
     background-color:white;
@@ -81,11 +110,11 @@ a{
     width:20px;
 }
 .poster{
-    height:450px;
-    width:450px;
+    height:auto;
+    width:100%;
+    max-width:1299px;
     border-radius: 50%;
     margin:auto;
-    margin:25px;
     background-size: auto;
     object-fit: cover;
   
@@ -142,14 +171,18 @@ a{
     margin-top: 70px;
     color:#FFD700;
     font-weight:bold;
+    font-size: clamp(28px, 5vw, 60px);
 
 }
 .container2{
     display:flex;
 
+
 }
 .container{
-
+    display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
     display:flex;
     overflow:hidden;
     background-image:url(gym3.jpg);
@@ -159,6 +192,9 @@ a{
 }
 .container3{
     display:flex;
+     display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
     
 }
 .container4{
@@ -166,17 +202,26 @@ a{
     justify-content: space-between;
     margin-left:90px;
     margin-right:90px;
+     display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 
     
 }
 .conatiner5{
     text-align: left;
+     display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 .container6{
     align-items: center;
     text-align: center;
     justify-content: center;
     display:flex;
+     display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
     .info {
   transition: 0.3s ease;
