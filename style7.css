@@ -10,7 +10,7 @@ body{
     justify-content: center;
     background-image: url(gym5.jpg);
     background-size: cover;
-    background-position: center;
+    
     box-shadow:4px 8px 16px rgba(0, 0, 0, 2.2);
 
 
@@ -70,4 +70,12 @@ button{
 }
 .text{
     margin-bottom:10px;
+}
+a{
+       color:white;
+       text-decoration:none;
+}
+.cancel a{
+    color:black;
+
 }
